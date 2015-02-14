@@ -40,7 +40,7 @@ class CalcBrain {
     }
     
     func eval(var expr: String) -> Double? {
-//        println(expr)
+        println(expr)
         if expr == ""{
             return nil
         }
@@ -48,13 +48,13 @@ class CalcBrain {
         if expr[0] == "+" || expr[0] == "−" {
             expr = "0" + expr
         }
-        if let plusRng = expr.rangeOfString("+") {
+        if let plusRng = expr.rangeOfString("+", options: .BackwardsSearch) {
             return operate(expr, rng: plusRng, op: +)
-        } else if let minusRng = expr.rangeOfString("−") {
+        } else if let minusRng = expr.rangeOfString("−", options: .BackwardsSearch) {
             return operate(expr, rng: minusRng, op: -)
-        } else if let mulRng = expr.rangeOfString("×") {
+        } else if let mulRng = expr.rangeOfString("×", options: .BackwardsSearch) {
             return operate(expr, rng: mulRng, op: *)
-        } else if let divRng = expr.rangeOfString("÷") {
+        } else if let divRng = expr.rangeOfString("÷", options: .BackwardsSearch) {
             return operate(expr, rng: divRng, op: /)
         } else if expr[expr.startIndex] == "√" {
             if let evalVal = eval(dropFirst(expr)) {

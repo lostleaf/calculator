@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62CD9854-4367-4610-82F7-5BEC6B2569D1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyCalc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C90E6A5FB0BFBF4D472AA9D42C4577D32C1AFB0</key>
+		<string>github.com:lostleaf/calculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyCalc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C90E6A5FB0BFBF4D472AA9D42C4577D32C1AFB0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lostleaf/calculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C90E6A5FB0BFBF4D472AA9D42C4577D32C1AFB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C90E6A5FB0BFBF4D472AA9D42C4577D32C1AFB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyCalc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
